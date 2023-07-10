@@ -18,7 +18,8 @@ def count_upper_lower(n):
             count_lower +=1
     return f"No. of Upper case characters : {count_upper}\nNo. of Lower case Characters : {count_lower}"
 
-sample_string = "The quick Brow Fox"
+# sample_string = "The quick Brow Fox"
+sample_string = input("Enter a string : ")
 # function calling 
 result = count_upper_lower(sample_string)
 # printing result
