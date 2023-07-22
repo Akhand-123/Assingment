@@ -53,7 +53,9 @@ print(res)
 # 4.Create a Python function that takes a sentence as input and returns the number of words in the sentence
 
 def func(n):
-    return len(n)
+    a = n.split()
+    
+    return len(a)
 mystr = input("Enter a string : ")
 # Calling the function 
 res = func(mystr)
@@ -61,8 +63,8 @@ res = func(mystr)
 print(res)
 
 # Output
-# Enter a string : akhand
-# 6
+# Enter a string : the big fat dog
+# 4
 
 # 5.Write a Python program to remove all the vowels from a given string.
 
