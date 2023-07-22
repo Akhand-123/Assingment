@@ -47,7 +47,7 @@ if re.search('not',mystr) and re.search('poor',mystr):
 from functools import reduce
 
 def func(l):
-    a = list(map(lambda x:len(x),l))
+    # a = list(map(lambda x:len(x),l))
     b =reduce(lambda x,y:x if x>y else y,a)
     print(a,b)
     for i in range(len(a)):
