@@ -1,0 +1,37 @@
+{
+    "1": {
+        "name": "A",
+        "DOB": "01/01/2000",
+        "height": "5.5",
+        "city": "Indore",
+        "state": "Madhya Pradesh"
+    },
+    "2": {
+        "name": "B",
+        "DOB": "02/02/2001",
+        "height": "5.6",
+        "city": "gurgram",
+        "state": "Delhi"
+    },
+    "3": {
+        "name": "C",
+        "DOB": "03/03/2002",
+        "height": "5.9",
+        "city": "Rewa",
+        "state": "Madhya Pradesh"
+    },
+    "4": {
+        "name": "D",
+        "DOB": "10/09/2001",
+        "height": "6",
+        "city": "Hyderabad",
+        "state": "Andhra Pradesh"
+    },
+    "5": {
+        "name": "E",
+        "DOB": "12/12/1996",
+        "height": "5.8",
+        "city": "Lucknow",
+        "state": "Uttra Pradesh"
+    }
+}
