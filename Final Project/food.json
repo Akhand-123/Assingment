@@ -1,0 +1,34 @@
+{
+    "3753": {
+        "Food_id": 3753,
+        "Food_name": "Maggi ",
+        "Food Quantity": "9",
+        "Food Price": 50.0,
+        "Discount": 0.0,
+        "Stock": 9
+    },
+    "791": {
+        "Food_id": 791,
+        "Food_name": "Dosha",
+        "Food Quantity": "2",
+        "Food Price": 70.0,
+        "Discount": 0.0,
+        "Stock": 8
+    },
+    "4210": {
+        "Food_id": 4210,
+        "Food_name": "Chowmin",
+        "Food Quantity": "1",
+        "Food Price": 80.0,
+        "Discount": 0.0,
+        "Stock": 9
+    },
+    "660": {
+        "Food_id": 660,
+        "Food_name": "Pizza",
+        "Food Quantity": "3",
+        "Food Price": 120.0,
+        "Discount": 10.0,
+        "Stock": 100
+    }
+}
