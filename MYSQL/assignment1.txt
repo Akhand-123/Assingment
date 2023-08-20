@@ -1,1 +1,39 @@
-hey there this is assignment 1
+On the basis of above tables perform given below questions
+
+ 1: Count the number of Salesperson whose name begin with ‘a’/’A’.
+ ans: select count(sname) as name_start_with_a from salespeople where sname like 'a%' or 'A%'; 
+      (only 1 person)
+ 2: Display all the Salesperson whose all orders worth is more than Rs. 2000.
+ ans: select sname as salesperson_name from salespeople where snum in (select snum as id from orders where amt>2000);
+      Peel and Serres
++------------------+
+| salesperson_name |
++------------------+
+| Peel             |
+| Serres           |
++------------------+
+ 3: Count the number of Salesperson belonging to Newyork.
+ ans: select count(sname) as from_newyork from salespeople where city='Newyork';
+      one person (1)
++--------------+
+| from_newyork |
++--------------+
+|            1 |
++--------------+
+ 4: Display the number of Salespeople belonging to London and belonging to Paris.
+ ans: select sname,city from salespeople where city='London' or city='Paris';
++--------+--------+
+| sname  | city   |
++--------+--------+
+| Peel   | London |
+| Motika | London |
++--------+--------+
+ 5: Display the number of orders taken by each Salesperson and their date of orders.
+ ams: select count(onum) as no_of_orders, odate as date from orders group by odate;
++--------------+------------+
+| no_of_orders | date       |
++--------------+------------+
+|            7 | 1990-10-06 |
+|            2 | 1990-10-04 |
+|            1 | 1990-10-05 |
++--------------+------------+
